@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Neural Chronos ODE on Cecília Coelho</title>
+    <link>http://localhost:1313/tags/neural-chronos-ode/</link>
+    <description>Recent content in Neural Chronos ODE on Cecília Coelho</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/neural-chronos-ode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neural Chronos ODE: Modelling bidirectional temporal patterns in time-series data</title>
+      <link>http://localhost:1313/papers/paper1/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper1/</guid>
+      <description>This work introduces Neural Chronos Ordinary Differential Equations (Neural CODE), a deep neural network architecture that fits a continuous-time ODE dynamics for predicting the chronology of a system both forward and backward in time. Published in Expert Systems with Applications, 2025.</description>
+    </item>
+  </channel>
+</rss>

@@ -68,6 +68,12 @@
 </head>
 
 <body class="list dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
 
 <header class="header">
     <nav class="nav">
@@ -77,6 +83,26 @@
                     height="18"
                     width="18">Cecília Coelho</a>
             <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
             </div>
         </div>
         <ul id="menu">
@@ -86,29 +112,8 @@
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/courses/" title="Courses">
-                    <span>Courses</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/data/" title="Data">
-                    <span>Data</span>
-                </a>
-            </li>
-            <li>
                 <a href="http://localhost:1313/books/" title="Books">
                     <span>Books</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_%28character%29" title="Blog">
-                    <span>Blog</span>&nbsp;
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
-                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                        <path d="M15 3h6v6"></path>
-                        <path d="M10 14L21 3"></path>
-                    </svg>
                 </a>
             </li>
         </ul>
@@ -132,22 +137,6 @@
   </div>
   <footer class="entry-footer"><span title='2013-03-07 00:00:00 +0000 UTC'>March 2013</span>&nbsp;&middot;&nbsp;Patrick Fitzcarron O'Leary,&thinsp;Florianus Prinzel,&thinsp;Walter Schoeffler-Henschell,&thinsp;Detlev Amadeus Unterholzer,&thinsp;Dieter Vogelsang,&thinsp;Moritz-Maria von Igelfeld</footer>
   <a class="entry-link" aria-label="post link to List of Irregular Verbs Across Romance Languages" href="http://localhost:1313/data/data1/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="http://localhost:1313/papers/paper1/paper1.png" alt="Some Uses For Olive Oil">
-        
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Unusual Uses For Olive Oil
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil.</p>
-  </div>
-  <footer class="entry-footer"><span title='2013-01-15 00:00:00 +0000 UTC'>January 2013</span>&nbsp;&middot;&nbsp;Detlev Amadeus Unterholzer,&thinsp;Moritz-Maria von Igelfeld</footer>
-  <a class="entry-link" aria-label="post link to Unusual Uses For Olive Oil" href="http://localhost:1313/papers/paper1/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -237,6 +226,18 @@
             }
         });
     });
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
 </script>
 </body>

@@ -16,15 +16,12 @@ menu:
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+    #        - name: Courses
+    #          url: courses/
+    #          weight: 3
+    #        - name: Data
+    #          url: data/
+    #          weight: 4 
 
 params:
     description: "I am Cecília Coelho, a Postdoctoral Researcher at HSU-AI Institute for Artificial Intelligence, Faculty of Mechanical Engineering and Civil Engineering, Helmut Schmidt University Hamburg, Germany, Invited Assistant Professor at Polytechnic Institute of Viana do Castelo, Portugal, and Member of the Centre of Mathematics, University of Minho (CMAT), Portugal"
@@ -33,7 +30,7 @@ params:
     DateFormat: "January 2006"
     defaultTheme: dark
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -60,16 +57,14 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
+      #            - name: Courses
+      #              url: courses/
+      #            - name: Data
+      #              url: data/
+      #            - name: Tags
+      #              url: tags/
+      #            - name: Archive
+      #              url: archive/
 
     socialIcons:
         - name: CV

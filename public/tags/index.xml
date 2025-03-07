@@ -6,41 +6,41 @@
     <description>Recent content in Tags on Cecília Coelho</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Academia</title>
-      <link>http://localhost:1313/tags/academia/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/academia/</guid>
+      <title>Forecasting Future</title>
+      <link>http://localhost:1313/tags/forecasting-future/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/forecasting-future/</guid>
       <description></description>
     </item>
     <item>
-      <title>Experimental Psychology</title>
-      <link>http://localhost:1313/tags/experimental-psychology/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/experimental-psychology/</guid>
+      <title>Machine Learning</title>
+      <link>http://localhost:1313/tags/machine-learning/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
-      <title>Inner Hedgehog</title>
-      <link>http://localhost:1313/tags/inner-hedgehog/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/inner-hedgehog/</guid>
+      <title>Neural Chronos ODE</title>
+      <link>http://localhost:1313/tags/neural-chronos-ode/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/neural-chronos-ode/</guid>
       <description></description>
     </item>
     <item>
-      <title>Invasive Thoughts</title>
-      <link>http://localhost:1313/tags/invasive-thoughts/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/invasive-thoughts/</guid>
+      <title>Neural ODEs</title>
+      <link>http://localhost:1313/tags/neural-odes/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/neural-odes/</guid>
       <description></description>
     </item>
     <item>
-      <title>Social Psychology</title>
-      <link>http://localhost:1313/tags/social-psychology/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/social-psychology/</guid>
+      <title>Unveiling Past</title>
+      <link>http://localhost:1313/tags/unveiling-past/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/unveiling-past/</guid>
       <description></description>
     </item>
     <item>
@@ -111,62 +111,6 @@
       <link>http://localhost:1313/tags/spanish/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/spanish/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>History of Oil</title>
-      <link>http://localhost:1313/tags/history-of-oil/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/history-of-oil/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mediterranean World</title>
-      <link>http://localhost:1313/tags/mediterranean-world/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mediterranean-world/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Oleic Science</title>
-      <link>http://localhost:1313/tags/oleic-science/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/oleic-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Canine Pulmonary Efficiency</title>
-      <link>http://localhost:1313/tags/canine-pulmonary-efficiency/</link>
-      <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/canine-pulmonary-efficiency/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Canine Science</title>
-      <link>http://localhost:1313/tags/canine-science/</link>
-      <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/canine-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Experimental Zoology</title>
-      <link>http://localhost:1313/tags/experimental-zoology/</link>
-      <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/experimental-zoology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sausage Dogs</title>
-      <link>http://localhost:1313/tags/sausage-dogs/</link>
-      <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/sausage-dogs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Zoology</title>
-      <link>http://localhost:1313/tags/zoology/</link>
-      <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/zoology/</guid>
       <description></description>
     </item>
     <item>
