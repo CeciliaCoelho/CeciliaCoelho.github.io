@@ -1,0 +1,112 @@
+baseURL: "https://ceciliacoelho.github.io"
+title: Cecília Coelho
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Books
+          url: books/
+          weight: 5 
+        - name: Papers
+          url: papers/
+          weight: 2
+        - name: Courses
+          url: courses/
+          weight: 3
+        - name: Data
+          url: data/
+          weight: 4 
+        - name: Blog
+          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          weight: 6
+
+params:
+    description: "I am Cecília Coelho, a Postdoctoral Researcher at HSU-AI Institute for Artificial Intelligence, Faculty of Mechanical Engineering and Civil Engineering, Helmut Schmidt University Hamburg, Germany, Invited Assistant Professor at Polytechnic Institute of Viana do Castelo, Portugal, and Member of the Centre of Mathematics, University of Minho (CMAT), Portugal"
+    author: Cecília Coelho
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: dark
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["books","courses","papers","data"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Dr Cecília Coelho 
+          subtitle: "I am Cecília Coelho, a Postdoctoral Researcher at HSU-AI Institute for Artificial Intelligence, Faculty of Mechanical Engineering and Civil Engineering, Helmut-Schmidt University Hamburg, Germany; Invited Assistant Professor at Polytechnic Institute of Viana do Castelo, Portugal; and Member of the Centre of Mathematics, University of Minho (CMAT), Portugal"
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+            - name: Papers
+              url: papers/
+            - name: Courses
+              url: courses/
+            - name: Data
+              url: data/
+            - name: Books
+              url: books/
+            - name: Tags
+              url: tags/
+            - name: Archive
+              url: archive/
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:coelhomc@hsu-hh.de
+        - name: Location
+          url: location/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=glIx3vsAAAAJ&hl=en
+        - name: GitHub
+          url: https://github.com/CeciliaCoelho
+        - name: orcid
+          url: https://orcid.org/0009-0009-4502-937
+        - name: researchgate
+          url: https://www.researchgate.net/profile/C-Coelho-2
+        - name: linkedin
+          url: https://www.linkedin.com/in/cecilia-coelho-b38b91183
+
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Cecília Coelho"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
